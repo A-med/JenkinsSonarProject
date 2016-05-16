@@ -9,16 +9,29 @@ package testsonar;
  *
  * @author dmk
  */
-public class TestSonar {
+
+
+public class TestSonar  {
 
     /**
      * @param args the command line arguments
      */
+   // @Test
     public static void main(String[] args) {
         int Abc ;
+ 
+        int x ;
+        x="";
+ 
        
+ 
         Abc =6;
         System.out.println(Abc);
+      int i=0; 
+      int j=0;
+     for (i = 0; i < 10; j++) {  // Noncompliant
+  // ...
+}   
         
     }
     
