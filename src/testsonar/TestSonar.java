@@ -28,14 +28,14 @@ public class TestSonar  {
         Abc =6;
         System.out.println(Abc);
         
-        if (x == 1) { Original
+        if (x == 1) { 
             System.err.println("");
         } else if (x == 2) {
             System.err.println("");
         } else if (x == 1) // Noncompliant
-
+        ;
  
-        
+            
     }
     
     public boolean Start(){
