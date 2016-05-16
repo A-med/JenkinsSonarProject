@@ -16,9 +16,22 @@ public class TestSonar {
      */
     public static void main(String[] args) {
         int Abc ;
-        
+       
         Abc =6;
         System.out.println(Abc);
+        
+    }
+    
+    public boolean Start(){
+        int nombreentier =50;
+       String s="";
+        while (true) {
+            if(s.equals(""))
+                nombreentier++;
+            nombreentier--;
+            break;
+        }
+        return nombreentier%2==0;
         
     }
     
