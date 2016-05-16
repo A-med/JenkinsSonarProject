@@ -30,7 +30,7 @@ public class TestSonar {
             // ...
         }
 
- 
+ //comment for test
         if (x == 1) { 
             System.err.println("");
         } else if (x == 2) {
