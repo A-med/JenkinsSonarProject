@@ -23,23 +23,32 @@ public class TestSonar extends Junit{
 
         Abc = 6;
         System.out.println(Abc);
+
         int i = 0;
         int j = 0;
         for (i = 0; i < 10; j++) {  // Noncompliant
             // ...
         }
 
-        if (x == 1) {
+        
+        
+        if (x == 1) { 
             System.err.println("");
         } else if (x == 2) {
             System.err.println("");
         } else if (x == 1) // Noncompliant
+
         {
             System.err.println("");
         }
-    
 
-}
+
+ 
+        
+    }
+   
+
+
 
 public boolean Start() {
         int nombreentier =50;
