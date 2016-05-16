@@ -1,7 +1,7 @@
 # Required metadata
-sonar.projectKey=org.sonarqube:KEy2
+sonar.projectKey=org.sonarqube:KEy1
 sonar.projectName=Java :: Simple Project Not Compiled :: SonarQube Scanner
-sonar.projectVersion=2.1
+sonar.projectVersion=2.0
 
 # Comma-separated paths to directories with sources (required)
 sonar.sources=src

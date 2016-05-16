@@ -9,33 +9,39 @@ package testsonar;
  *
  * @author dmk
  */
-
-
-public class TestSonar  {
+public class TestSonar {
 
     /**
      * @param args the command line arguments
      */
-   // @Test
+    // @Test
     public static void main(String[] args) {
-        int Abc ;
- 
-        int x ;
-        x="";
- 
-       
- 
-        Abc =6;
+        int Abc;
+
+        int x;
+        x = "";
+
+        Abc = 6;
         System.out.println(Abc);
-      int i=0; 
-      int j=0;
-     for (i = 0; i < 10; j++) {  // Noncompliant
-  // ...
-}   
-        
+        int i = 0;
+        int j = 0;
+        for (i = 0; i < 10; j++) {  // Noncompliant
+            // ...
+        }
+
+        if (x == 1) {
+            System.err.println("");
+        } else if (x == 2) {
+            System.err.println("");
+        } else if (x == 1) // Noncompliant
+        {
+            System.err.println("");
+        }
     }
-    
-    public boolean Start(){
+
+}
+
+public boolean Start(){
         int nombreentier =50;
        String s="";
         while (true) {
