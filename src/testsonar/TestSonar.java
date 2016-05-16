@@ -9,7 +9,7 @@ package testsonar;
  *
  * @author dmk
  */
-public class TestSonar {
+public class TestSonar extends Junit{
 
     /**
      * @param args the command line arguments
@@ -37,11 +37,11 @@ public class TestSonar {
         {
             System.err.println("");
         }
-    }
+    
 
 }
 
-public boolean Start(){
+public boolean Start() {
         int nombreentier =50;
        String s="";
         while (true) {

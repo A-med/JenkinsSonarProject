@@ -1,5 +1,5 @@
-projectKey=org.sonarqube:KEy1
+projectKey=org.sonarqube:KEy2
 serverUrl=http://localhost:9000
-dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:KEy1
-ceTaskId=AVS6-EXpEhaYgBGq3-qC
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVS6-EXpEhaYgBGq3-qC
+dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:KEy2
+ceTaskId=AVS7InBPEhaYgBGq3-qG
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVS7InBPEhaYgBGq3-qG
